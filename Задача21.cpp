@@ -25,7 +25,7 @@ int main() {
 	int* res = (int*)malloc(N*sizeof(int));
 	
 	//Выводим начальный массив
-	printf("Íà÷àëüíûé ìàññèâ: [");
+	printf("Начальный массив: [");
 	for(int i = 0; i < N; i++)
 		printf("%i ", arr[i]);
 	printf("]\n");
@@ -38,7 +38,7 @@ int main() {
 	}
 	
 	//Выводим результат
-	printf("Ðåçóëüòàò: [");
+	printf("Результат: [");
 	for(int i = 0; i < j; i++)
 		printf("%i ", res[i]);
 	printf("]");
