@@ -21,7 +21,7 @@ function unpackStr($str) {
 
 $str = "wwwwxxghiiooo";
 $packed = packStr($str);
-echo $packed." ";
+echo $packed."\n";
 $unpacked = unpackStr($packed);
 echo $unpacked;
 
