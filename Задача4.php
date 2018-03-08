@@ -24,5 +24,4 @@ $packed = packStr($str);
 echo $packed."\n";
 $unpacked = unpackStr($packed);
 echo $unpacked;
-
 ?>
