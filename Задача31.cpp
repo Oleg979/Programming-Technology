@@ -66,4 +66,7 @@ int main() {
 			begin = i;
 			end = j;
 		}
+		
+	for(int i = begin; i < end; i++)
+		printf("%d ", arr[i]);
 }
