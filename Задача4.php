@@ -20,8 +20,9 @@ function unpackStr($str) {
 }
 
 $str = "wwwwwwwwwwwwwxxghiioooooooooooooooooooooooo";
+echo "Исходная строка: ".$str."<br>";
 $packed = packStr($str);
-echo implode("",$packed)." ";
+echo "Упакованная строка: ".implode("",$packed)."<br>";
 $unpacked = unpackStr($packed);
-echo $unpacked;
+echo "Распакованная строка: ".$unpacked."<br>";
 ?>
