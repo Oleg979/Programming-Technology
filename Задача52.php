@@ -27,7 +27,8 @@ function calc($tokens) {
     return $res;
 }
 
-$str = "-33+22+11";
+//Программа предусматривает наличие минуса в начале строки
+$str = "-33+222+11";
 $tokens = parse($str);
 $res = calc($tokens);
 echo $res;
