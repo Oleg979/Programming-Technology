@@ -1,4 +1,4 @@
-ini_set("memory_limit","580M");
+
 <?php
 function addOne($str,$pos) {
     $res = $str;
