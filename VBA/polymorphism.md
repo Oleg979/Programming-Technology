@@ -21,7 +21,7 @@ Private Sub Animal_Voice()
     Debug.Print "Meow-meow!"
 End Sub
 ```
-3.Dog
+3. Dog
 ```vba
 Implements Animal
 
